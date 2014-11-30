@@ -1,4 +1,4 @@
-<h1><img src="https://raw.githubusercontent.com/c0ding/wylie/master/doc/nestor.png" height=85 alt="wylie" title="wylie"> wylie</h1>
+<h1><img src="https://raw.githubusercontent.com/c0ding/wylie/master/doc/wylie.png" height=85 alt="wylie" title="wylie"> wylie</h1>
 
 [![PyPi Version](http://img.shields.io/pypi/v/wylie.svg)](https://pypi.python.org/pypi/wylie/)   [![Downloads](http://img.shields.io/pypi/dm/wylie.svg)](https://pypi.python.org/pypi/wylie/)
 
