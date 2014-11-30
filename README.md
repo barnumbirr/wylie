@@ -1,6 +1,6 @@
-<h1><img src="https://raw.githubusercontent.com/c0ding/nestor/master/doc/nestor.png" alt="nestor" title="nestor"> nestor</h1>
+<h1><img src="https://raw.githubusercontent.com/c0ding/wylie/master/doc/nestor.png" height=85 alt="wylie" title="wylie"> wylie</h1>
 
-[![PyPi Version](http://img.shields.io/pypi/v/nestor-jenkins.svg)](https://pypi.python.org/pypi/nestor-jenkins/)   [![Downloads](http://img.shields.io/pypi/dm/nestor-jenkins.svg)](https://pypi.python.org/pypi/nestor-jenkins/)
+[![PyPi Version](http://img.shields.io/pypi/v/wylie.svg)](https://pypi.python.org/pypi/wylie/)   [![Downloads](http://img.shields.io/pypi/dm/wylie.svg)](https://pypi.python.org/pypi/wylie/)
 
 
 ## Installation:
@@ -11,7 +11,7 @@ From source use
 
 or install from PyPi
 
-    $ pip install nestor-jenkins
+    $ pip install wylie
 
 ## License:
 
