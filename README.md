@@ -1,6 +1,6 @@
 <h1><img src="https://raw.githubusercontent.com/c0ding/nestor/master/doc/nestor.png" alt="nestor" title="nestor"> nestor</h1>
 
-[![PyPi Version](http://img.shields.io/pypi/v/nestor.svg)](https://pypi.python.org/pypi/nestor/)   [![Downloads](http://img.shields.io/pypi/dm/nestor.svg)](https://pypi.python.org/pypi/nestor/)
+[![PyPi Version](http://img.shields.io/pypi/v/nestor-jenkins.svg)](https://pypi.python.org/pypi/nestor-jenkins/)   [![Downloads](http://img.shields.io/pypi/dm/nestor-jenkins.svg)](https://pypi.python.org/pypi/nestor-jenkins/)
 
 
 ## Installation:
@@ -11,7 +11,7 @@ From source use
 
 or install from PyPi
 
-    $ pip install nestor
+    $ pip install nestor-jenkins
 
 ## License:
 
