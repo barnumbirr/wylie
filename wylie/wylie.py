@@ -13,14 +13,14 @@ __author__  = '@c0ding'
 __repo__    = 'https://github.com/c0ding/wylie'
 __license__ = 'Apache v2.0 License'
 
-class Build:
+class Build():
 	
 	def __init__(self, attrs):
 		self.name = attrs['name']
 		self.number = attrs['lastBuildLabel']
 		self.status = attrs['lastBuildStatus']
 		
-class BuildMonitor:
+class BuildMonitor():
 
 	def __init__(self, listener):
 		self.builds = None
@@ -67,7 +67,7 @@ class BuildMonitor:
 			builds[build.name] = build
 		return builds
 
-class BuildNotifier:
+class BuildNotifier():
 	
 	def __init__(self):
 		self.api = Notifier
