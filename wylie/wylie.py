@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import os
 import requests
 from time import sleep
 from pync import Notifier
-from wylie_utils import *
+from wylie_utils import settings
 from xml.etree import ElementTree
 
 __title__   = 'wylie'
