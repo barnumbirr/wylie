@@ -1,4 +1,6 @@
+STATS
 COPYING
 setup.py
 README.md
-wylie/__init__.py
+wylie/wylie.py
+wylie/wylie_utils.py
