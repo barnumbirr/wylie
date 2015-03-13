@@ -30,8 +30,8 @@ class BuildMonitor():
 		while True:
 			try:
 				self.check_for_new_builds()
-			except IOError as e:
-				print 'WARNING! update failed:', e.strerror
+			except Exception as e:
+				print 'WARNING! Update failed:', e
 			sleep(settings['UPDATE_INTERVAL'])
 				
 	def check_for_new_builds(self):
