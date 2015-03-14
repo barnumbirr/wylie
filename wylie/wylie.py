@@ -6,9 +6,10 @@ from time import sleep
 from pync import Notifier
 from wylie_utils import settings
 from xml.etree import ElementTree
+from requests.auth import HTTPDigestAuth
 
 __title__ = 'wylie'
-__version__ = '0.1'
+__version__ = '0.1.1'
 __author__ = '@c0ding'
 __repo__ = 'https://github.com/c0ding/wylie'
 __license__ = 'Apache v2.0 License'
@@ -61,6 +62,8 @@ class BuildMonitor():
 	def fetch_builds(self):
 		builds = {}
 		response = requests.get(settings['JENKINS_URL'] + '/cc.xml', auth=(settings['JENKINS_USER'], settings['JENKINS_PASSWORD']))
+		if response.status_code == 401:
+			response = requests.get(settings['JENKINS_URL'] + '/cc.xml', auth=HTTPDigestAuth(settings['JENKINS_USER'], settings['JENKINS_PASSWORD']))
 		projects = ElementTree.fromstring(response.content)
 		for project in projects.iter('Project'):
 			build = Build(project.attrib)
