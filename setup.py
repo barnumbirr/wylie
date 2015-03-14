@@ -5,7 +5,7 @@ from distutils.core import setup
 
 setup(
     name = 'wylie',
-    version = '0.1',
+    version = '0.1.1',
     url = 'https://github.com/c0ding/wylie',
     download_url = 'https://github.com/c0ding/wylie/archive/master.zip',
     author = 'c0ding',

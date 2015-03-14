@@ -77,7 +77,7 @@ class BuildNotifier():
 		
 	def notify(self, build, event):
 		url = settings['JENKINS_URL'] + '/job/' + build.name + '/' + build.number + "/"
-		self.api.notify(title='Jenkins Notify', message = build.name + " "+ event, open=url)
+		self.api.notify(title='[wylie] Jenkins Notification:', message = build.name + " "+ event, open=url)
 		
 if __name__ == '__main__':
 	try:
